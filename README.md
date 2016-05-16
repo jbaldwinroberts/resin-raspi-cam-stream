@@ -1,3 +1,2 @@
-# resin-helloworld
-
-* Raspi-cam - sets up a raspi-cam stream
+# Resin-raspi-cam-stream
+Sets up a raspi-cam stream
