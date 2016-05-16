@@ -1,4 +1,4 @@
-FROM resin/%%RESIN_MACHINE_NAME%%-debian
+FROM resin/raspberrypi3-debian
 
 #switch on systemd init system in container
 ENV INITSYSTEM on
