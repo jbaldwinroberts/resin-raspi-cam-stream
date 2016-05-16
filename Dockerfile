@@ -12,4 +12,7 @@ RUN git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
 WORKDIR /usr/src/app/RPi_Cam_Web_Interface
 RUN chmod u+x *.sh
 RUN ./install.sh q
+
+#Power cycle needed
+
 CMD modprobe bcm2835-v4l2 && ./start.sh
