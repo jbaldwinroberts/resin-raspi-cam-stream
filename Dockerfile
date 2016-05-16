@@ -13,6 +13,8 @@ WORKDIR /usr/src/app/RPi_Cam_Web_Interface
 RUN chmod u+x *.sh
 RUN ./install.sh q
 
-#Power cycle needed
+#TODO Figure out how to disable auto-start on boot
+#TODO Power cycle needed x 2 - figure out why and write a script to automate
+#Enable public URL
 
 CMD modprobe bcm2835-v4l2 && ./start.sh
