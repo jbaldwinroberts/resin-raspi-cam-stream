@@ -9,7 +9,7 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 
 RUN git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
-RUN cd RPi_Cam_Web_Interface
+WORKDIR /usr/src/app/RPi_Cam_Web_Interface
 RUN chmod u+x *.sh
 RUN ./install.sh
 
