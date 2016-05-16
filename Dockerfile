@@ -13,6 +13,8 @@ WORKDIR /usr/src/app/RPi_Cam_Web_Interface
 RUN chmod u+x *.sh
 RUN ./install.sh
 
+CMD ./start.sh
+
 #RUN gcc -o hello hello.c
 
 #CMD ./hello
