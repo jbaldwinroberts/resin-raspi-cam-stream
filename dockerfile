@@ -10,6 +10,6 @@ RUN apt-get -q update && apt-get install -yq --no-install-recommends \
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
-RUN gcc -o hello hello.c
+RUN gcc -o helloo hello.c
 
-CMD ./hello
+CMD ./helloo
