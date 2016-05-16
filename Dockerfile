@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 RUN git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
 WORKDIR /usr/src/app/RPi_Cam_Web_Interface
 RUN chmod u+x *.sh
-CMD ./install.sh q
+#CMD ./install.sh q
 
 
 
