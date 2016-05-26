@@ -1,0 +1,13 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-node
+
+ENV INITSYSTEM on
+
+RUN apt-get -q update && sudo apt-get dist-upgrade && apt-get install -yq --no-install-recommends build-essential && apt-get clean 
+
+COPY . /usr/src/app
+WORKDIR /usr/src/app/RPi_Cam_Web_Interface
+
+RUN chmod u+x *.sh
+RUN ./install.sh q
+
+CMD modprobe bcm2835-v4l2 && ./start.sh
