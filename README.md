@@ -6,7 +6,7 @@ This repository makes use of the excellent RPi Cam Web Interface. Check out the 
 
 ## Instructions
 ### Step 1
-Sign up with [resin.io](http://resin.io). Create a Raspberry Pi app, download the image and make sure your device is online on the resin dashboard. You can find more detailed instructions [here](http://docs.resin.io/raspberrypi/nodejs/getting-started/). Ensure the camera module is properly fitted.
+Sign up with [resin.io](http://resin.io). Create a Raspberry Pi app, download the image and make sure your device is online on the resin dashboard. You can find more detailed instructions [here](http://docs.resin.io/raspberrypi/nodejs/getting-started/). Ensure the camera module is properly [fitted](https://www.raspberrypi.org/help/camera-module-setup/).
 
 ### Step 2
 Add [environment variables](http://docs.resin.io/management/env-vars/) to your resin app to enable the Raspberry Pi camera module. There are three environment variables that need to be set, you can read more about them [here](http://docs.resin.io/hardware/i2c-and-spi/#raspberry-pi-camera-module). To set the variables you need to:
