@@ -1,5 +1,5 @@
 # resin-raspi-cam-stream
-Sets up a raspi-cam stream
+Sets up a Raspberry Pi camera stream using [resin.io](http://resin.io).
 
 ## Acknowledgments
 This repository makes use of the excellent RPi Cam Web Interface. Check out the [documentation](http://elinux.org/RPi-Cam-Web-Interface) and [Github repository](https://github.com/silvanmelchior/RPi_Cam_Web_Interface).
