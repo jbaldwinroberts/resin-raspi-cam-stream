@@ -42,4 +42,5 @@ Navigate to the public URL and enjoy watching your live camera stream!
 
 ## Notes
 I have modified `index.php` so that it only shows the webcam stream. To show the full RPi Cam Web Interface you will need to rename `index_back.php` found in `resin-raspi-cam-stream/RPi_Cam_Web_Interface/www` to `index.php`.
+
 Sometimes the camera does not start properly when new code is pushed - a simple reboot fixes this.
