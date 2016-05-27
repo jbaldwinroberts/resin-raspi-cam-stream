@@ -10,13 +10,15 @@ Sign up with [resin.io](http://resin.io). Create a Raspberry Pi app, download th
 
 ### Step 2
 Add [environment variables](http://docs.resin.io/management/env-vars/) to your resin app to enable the Raspberry Pi camera module. There are three environment variables that need to be set, you can read more about them [here](http://docs.resin.io/hardware/i2c-and-spi/#raspberry-pi-camera-module). To set the variables you need to:
-*Select you resin app in the resin [dashboard](https://dashboard.resin.io)
-*Select `Fleet Configuration`
-*Add three config variables:
-..*`RESIN_HOST_CONFIG_fixup_file = fixup_x.dat`
-..*`RESIN_HOST_CONFIG_gpu_mem = 128`
-..*`RESIN_HOST_CONFIG_start_file = start_x.elf`
-*Check your `Fleet Configuration` screen matches mine.
+
+* lect you resin app in the resin [dashboard](https://dashboard.resin.io)
+* Select `Fleet Configuration`
+* Add three config variables:
+ * `RESIN_HOST_CONFIG_fixup_file = fixup_x.dat`
+ * `RESIN_HOST_CONFIG_gpu_mem = 128`
+ * `RESIN_HOST_CONFIG_start_file = start_x.elf`
+* Check your `Fleet Configuration` screen matches mine.
+
 Inline-style: 
 ![alt text](/Docs/env_vars.png)
 
